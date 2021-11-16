@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/style.css">
+  <title>Document</title>
+</head>
+
+<header>
+  <div class="container-logo">
+    <div class="logo">
+      <img src="img/img_logo.webp" alt="img_logo">
+    </div>
+    <div class="logo-texto">
+      <p>Forbidden</p>
+    </div>
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#">Cadastro</a></li>
+    </ul>
+  </div>
+</header>
+
+<body>
+  <div class="img_background">
+    <img src="img/img_background.webp" alt="img_header">
+  </div>
+
+  <div class="format_final">
+    <div class="cadastro">
+      <div class="format">
+        <div class="padrao_titulo">
+          <h1>classes</h1>
+        </div>
+        <table border="2">
+          <thead>
+            <tr>
+              <td>Nome</td>
+              <td>Descrição</td>
+            </tr>
+
+            <tr>
+              <td>Knight</td>
+              <td>Lorem ipsum dolor sit amet</td>
+            </tr>
+
+            <tr>
+              <td>Paladin</td>
+              <td>Lorem ipsum dolor sit amet</td>
+            </tr>
+
+            <tr>
+              <td>Sorcerer</td>
+              <td>Lorem ipsum dolor sit amet</td>
+            </tr>
+
+            <tr>
+              <td>Druid</td>
+              <td>Lorem ipsum dolor sit amet</td>
+            </tr>
+          </thead>
+        </table>
+      </div>
+    </div>
+
+    <form action="https://api-dwi.herokuapp.com/api/examples" method="post">
+      <div class="formulario">
+        <div class="guia_formulario">
+
+          <div class="guia_cadastro">
+            <div class="padrao_titulo">
+              <h2>Cadastro de Personagem</h2>
+            </div>
+          </div>
+
+          <div class="p_1">
+            <p>Nick:</p>
+            <input type="text" name="nick_name" placeholder="Seu Nick ingame.">
+          </div>
+
+          <div class="p_2">
+            <p>Idade:</p>
+            <input type="text" name="idade" placeholder="Sua idade ingame.">
+          </div>
+
+          <div class="p_3">
+            <p>Vocação</p>
+            <select name="classe">
+              <option value>Selecione uma classe</option>
+              <option value="knight" id="Knight">Knight</option>
+              <option value="paladin" id="Paladin">Paladin</option>
+              <option value="sorcerer" id="Sorcerer">Sorcerer</option>
+              <option value="druid" id="Druid">Druid</option>
+            </select>
+          </div>
+
+          <div class="guia_escolhas">
+            <div class="guia_extra">
+              <div class="padrao_titulo">
+                <h3>Escolhas extras:</h3>
+              </div>
+            </div>
+
+            <div class="check_1">
+              <input type="checkbox" name="tutorial">
+              <label for="box1">Fazer Tutorial</label>
+            </div>
+
+            <div class="check_2">
+              <input type="checkbox" name="beta">
+              <label for="box2">Participar do Beta</label>
+            </div>
+
+            <div class="check_3">
+              <input type="checkbox" name="premium">
+              <label for="box3">Comprar Premmium</label>
+            </div>
+          </div>
+
+          <div class="padrao_titulo">
+            <h4>Localização de Servidor:</h4>
+          </div>
+          <div class="guia_pais">
+
+            <div class="guia_pais_1">
+              <input type="radio" name="pais" id="br" value="br">
+              <label for="br">Brasil</label>
+            </div>
+
+            <div class="guia_pais_2">
+              <input type="radio" name="pais" id="eua" value="eua">
+              <label for="eua">Estados Unidos</label>
+            </div>
+
+            <div class="guia_pais_3">
+              <input type="radio" name="pais" id="europa" value="europa">
+              <label for="europa">Europeu</label>
+            </div>
+
+          </div>
+
+          <div class="guia_historia">
+            <div class="padrao_titulo">
+              <h4>Historia do Personagem</h4>
+            </div>
+            <div class="text_area">
+              <textarea name="history" id="history" cols="100" rows="10"></textarea>
+            </div>
+          </div>
+
+        </div>
+
+        <div>
+          <button>Cadastrar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

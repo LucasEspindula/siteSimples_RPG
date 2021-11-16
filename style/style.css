@@ -1,0 +1,201 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  position: absolute;
+      width: 100%;
+      margin-bottom: 0px;
+      background-color: rgba(30, 64, 102, 0.596);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.format_final {
+  margin-left: 500px;
+}
+.padrao_titulo {
+  font-family: cursive;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-around;
+  color: rgba(45, 108, 180, 0.699);
+}
+h1, h2, h3, h4, h5 {
+  text-shadow: rgba(0, 0, 0, 0.877) 0.1em 0.1em 0.2em;
+}
+.logo-texto p{
+  text-transform: uppercase;
+  font-family: cursive;
+  font-size: 30px;
+  text-shadow: rgb(236, 230, 230) 0.1em 0.1em 0.2em;
+}
+.container-logo {
+  display: flex;
+  align-items: center;
+}
+.logo-texto {
+  margin-left: 20px;
+  text-shadow: white 0.1em 0.1em 0.80em;
+}
+.menu ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+.menu ul li a {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+  color: black;
+  text-shadow: white 0.1em 0.1em 0.4em;
+  text-transform: uppercase;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+.menu ul li a:hover {
+  background-color: rgba(75, 70, 70, 0.623);
+}
+.container_text {
+  color:#fff;
+  text-align: center;
+  margin-left: 450px;
+  margin-right: auto;
+}
+.container_text h2{
+  position: absolute;
+      background-color: rgba(0,0,0,0.5);
+      text-transform: uppercase;
+      text-shadow: black 0.1em 0.1em 0.2em;
+      top: 100px;
+      border-radius: 15px;
+      left: 450px;
+      width: 600px;
+}
+.container_text p {
+  position: absolute;
+      background-color: rgba(0, 0, 0,0.5);
+      text-shadow: black 0.2em 0.2em 0.4em;
+      top: 140px;
+      width: 600px;
+}
+.img_background img{
+  width: 100%;
+  height: 100%;
+}
+.img_mapa img {
+  position: absolute;
+      width: 740px;
+      top: 450px;
+      margin-left: 375px;
+      border-radius: 180px;
+}
+/**
+==cadastro===
+**/
+.format {
+  position: absolute;
+      top: 90px;
+      color: white;
+      background-color: rgba(0,0,0,0.5);
+      width: 520px;
+      height: 630px;
+      margin-left: -10px;
+}
+.format table {
+  display: flex;
+  margin-left: 140px;
+  width: 250px;
+  height: 120px;
+
+}
+.guia_formulario {
+  position: absolute;
+  top: 270px;
+  width: 500px;
+  height: 75px;
+  color: white;
+}
+.p_2 {
+  position: absolute;
+  margin-left: 170px;
+  top: 30px;
+}
+.p_3 {
+  position: absolute;
+  margin-left: 340px;
+  top: 30px;
+}
+.check_1 {
+  position: absolute;
+  top: 110px;
+}
+.check_2 {
+  position:absolute;
+  margin-left: 170px;
+  top: 110px;
+}
+.check_3 {
+  position: absolute;
+  margin-left: 340px;
+  top: 110px;
+}
+.guia_extra {
+  margin-top: 10px;
+}
+.guia_pais {
+  margin-top: 10px;
+  margin-left: 120px;
+  font-size: 17px;
+}
+.guia_pais_1 {
+  position: absolute;
+}
+.guia_pais_2 {
+  position: absolute;
+  margin-left: 80px;
+  margin-bottom: 50px;
+}
+.guia_pais_3 {
+  position: absolute;
+  margin-left: 215px;
+}
+.guia_historia {
+  margin-top: 50px;
+}
+textarea {
+  display: flex;
+  height: 200px;
+  width: 500px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(30, 64, 102, 0.596);
+  border-radius: 10px;
+  font-size: 15px;
+}
+.guia_escolhas {
+  margin-bottom: 50px;
+}
+button {
+  position: absolute;
+  display: flex;
+  top: 700px;
+  height: 35px;
+  width: 100px;
+  border-style: solid;
+  font-size: 15px;
+  margin-left: 200px;
+  border-radius: 50px;
+  align-items: center;
+  color: rgba(245, 245, 245, 0.774);
+  background-color: rgba(0, 0, 0,0.5);
+  text-transform: uppercase;
+}
+button:hover {
+  background-color: rgba(245, 245, 245, 0.774);
+  color: rgba(0, 0, 0, 0.849);
+}
+
+
+
